@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+
+    <Style>
+        .typeOneBlock {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        /* Type Two Styles */
+        .typeTowCard {
+            width: 300px;
+            height: 384px;
+            background: white;
+            padding: .4em;
+            border-radius: 6px;
+        }
+
+        .typeTwoCard-image {
+            background-color: rgb(236, 236, 236);
+            width: 100%;
+            height: 60%;
+            border-radius: 6px 6px 0 0;
+        }
+
+        .typeTwoCard-image:hover {
+            transform: scale(0.98);
+        }
+
+        .category {
+            text-transform: uppercase;
+            font-size: 0.7em;
+            font-weight: 600;
+            color: rgb(63, 121, 230);
+            padding: 10px 7px 0;
+        }
+
+        .category:hover {
+            cursor: pointer;
+        }
+
+        .typeTwoHeading {
+            font-weight: 600;
+            color: rgb(88, 87, 87);
+            padding: 7px;
+        }
+
+        .heading:hover {
+            cursor: pointer;
+        }
+
+        .author {
+            color: gray;
+            font-weight: 400;
+            font-size: 11px;
+            padding-top: 20px;
+        }
+
+        .name {
+            font-weight: 600;
+        }
+
+        .name:hover {
+            cursor: pointer;
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="container-fluid" style="margin: 20px;">
+        <H2>Type 1 Div</H2><br>
+        <div class="row ">
+            <div class="card col typeOneBlock">
+                <img class="card-img-top" src="wrench.webp" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Hydraulic Torque Wrench</h4>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+            <div class="card col typeOneBlock">
+                <img class="card-img-top" src="wrench.webp" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Battery Torque Wrench</h4>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+            <div class="card col typeOneBlock">
+                <img class="card-img-top" src="wrench.webp" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Manual Torque Wrench</h4>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+            <div class="card col typeOneBlock">
+                <img class="card-img-top" src="wrench.webp" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Digital Torque Wrench</h4>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+        </div><br>
+
+        <!-- Type 2 division typeTowCard typeTwoHeading-->
+        <h2>Type Two Division</h2>
+        <div class="row">
+            <div class=" typeTowCard">
+                <div class="typeTwoCard-image"></div>
+                <div class="category"> Hydraulic Torque Wrench </div>
+                <div class="typeTwoHeading"> A heading that must span over two lines
+                    <div class="author"> <button type="button" class="btn btn-danger">Download PDF</button> </div>
+                </div>
+            </div>
+            <div class=" typeTowCard">
+                <div class="typeTwoCard-image"></div>
+                <div class="category"> Battery Torque Wrench </div>
+                <div class="typeTwoHeading"> A heading that must span over two lines
+                    <div class="author"> <button type="button" class="btn btn-danger">Download PDF</button> </div>
+                </div>
+            </div>
+            <div class=" typeTowCard">
+                <div class="typeTwoCard-image"></div>
+                <div class="category"> Pneumatic torque Wrench </div>
+                <div class="typeTwoHeading"> A heading that must span over two lines
+                    <div class="author"> <button type="button" class="btn btn-danger">Download PDF</button> </div>
+                </div>
+            </div>
+            <div class=" typeTowCard">
+                <div class="typeTwoCard-image"></div>
+                <div class="category"> Digital Torque Wrench </div>
+                <div class="typeTwoHeading"> A heading that must span over two lines
+                    <div class="author"> <button type="button" class="btn btn-danger">Download PDF</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
